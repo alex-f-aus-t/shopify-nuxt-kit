@@ -45,6 +45,10 @@ export default {
     '@nuxtjs/style-resources',
   ],
 
+  generate: {
+    fallback: true,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxt/http'],
 
