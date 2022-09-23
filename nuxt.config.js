@@ -55,7 +55,7 @@ export default {
   http: {
     baseUrl:
       process.env.NODE_ENV !== 'production'
-        ? 'http://localhost:8888'
-        : 'https://shopify-nuxt-kit.netlify.app',
+        ? 'http://localhost:3000'
+        : 'elaborate-kashata-0639d7.netlify.app',
   },
 }
